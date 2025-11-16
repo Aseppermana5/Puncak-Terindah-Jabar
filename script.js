@@ -69,6 +69,9 @@ function handleModalOpen(trigger) {
     modal.style.display = 'block';
 }
 
+/**
+ .
+ * @param {HTMLElement} button - Tombol .tips-btn yang diklik.
  */
 function handleTipsToggle(button) {
     const tipsContent = button.closest('.modal-content')?.querySelector('.tips-content');
