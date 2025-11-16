@@ -4,10 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gunung Tercantik di Jawa Barat - Wisata Alam dan Hiking</title>
+    
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Lora:wght@400;600&display=swap" rel="stylesheet">
-    
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     
     <link rel="stylesheet" href="style.css">
@@ -15,7 +15,7 @@
 <body>
     <header>
         <div class="container">
-            <h1 class="logo"><i class="fa-solid fa-mountain-sun"></i>Puncak Terindah Jabar</h1>
+            <h1 class="logo"><i class="fa-solid fa-mountain-sun"></i> Puncak Terindah Jabar</h1>
             <nav>
                 <ul id="nav-links">
                     <li><a href="#home"><i class="fa-solid fa-house"></i> Beranda</a></li>
@@ -29,67 +29,208 @@
         </div>
     </header>
 
-    <section id="home" class="hero">
-        <div class="container">
-            <h2>Jelajahi Gunung-Gunung Indah di Jawa Barat</h2>
-            <p>Jawa Barat menawarkan 10 gunung tercantik untuk hiking, trekking, dan menikmati keindahan alam. Dari puncak hingga kawah, temukan petualangan tak terlupakan!</p>
-            <a href="#destinations" class="cta-button"><i class="fa-solid fa-diamond-turn-right"></i> Lihat Gunung</a>
-        </div>
-    </section>
+    <main>
+        <section id="home" class="hero">
+            <div class="container">
+                <h2>Jelajahi Gunung-Gunung Indah di Jawa Barat</h2>
+                <p>Jawa Barat menawarkan 10 gunung tercantik untuk hiking, trekking, dan menikmati keindahan alam. Dari puncak hingga kawah, temukan petualangan tak terlupakan!</p>
+                <a href="#destinations" class="cta-button"><i class="fa-solid fa-diamond-turn-right"></i> Lihat Gunung</a>
+            </div>
+        </section>
 
-    <section id="destinations" class="destinations">
+        <section id="destinations" class="destinations">
+            <div class="container">
+                <h2><i class="fa-solid fa-signs-post"></i> 10 Gunung Tercantik di Jawa Barat</h2>
+                <div class="gallery">
+                
+                    <figure class="destination">
+                        <img src="gunung_pangrango.jpg" alt="Foto Gunung Pangrango">
+                        <figcaption>
+                            <h3>Gunung Pangrango</h3>
+                            <p class="desc-link" data-modal="modal-pangrango">Gunung aktif dengan pemandangan kawah dan hutan tropis...</p>
+                        </figcaption>
+                    </figure>
+
+                    <figure class="destination">
+                        <img src="gunung_gede.jpg" alt="Foto Gunung Gede">
+                        <figcaption>
+                            <h3>Gunung Gede</h3>
+                            <p class="desc-link" data-modal="modal-gede">Gunung tertinggi di Jawa Barat dengan jalur pendakian...</p>
+                        </figcaption>
+                    </figure>
+
+                    <figure class="destination">
+                        <img src="ciremai.jpg" alt="Foto Gunung Ciremai">
+                        <figcaption>
+                            <h3>Gunung Ciremai</h3>
+                            <p class="desc-link" data-modal="modal-ciremai">Gunung Ciremai: Gunung tertinggi di Jawa Barat...</p>
+                        </figcaption>
+                    </figure>
+
+                    <figure class="destination">
+                        <img src="mt papandayan.jpg" alt="Foto Gunung Papandayan">
+                        <figcaption>
+                            <h3>Gunung Papandayan</h3>
+                            <p class="desc-link" data-modal="modal-papandayan">Gunung dengan kawah aktif dan padang rumput...</p>
+                        </figcaption>
+                    </figure>
+
+                    <figure class="destination">
+                        <img src="Tangkuban Perahu Bandung.jpg" alt="Foto Gunung Tangkuban Perahu">
+                        <figcaption>
+                            <h3>Gunung Tangkuban Perahu</h3>
+                            <p class="desc-link" data-modal="modal-tangkuban">Gunung ikonik dengan kawah yang dapat dikunjungi...</p>
+                        </figcaption>
+                    </figure>
+
+                    <figure class="destination">
+                        <img src="Gunung salak, kota bogor.jpg" alt="Foto Gunung Salak">
+                        <figcaption>
+                            <h3>Gunung Salak</h3>
+                            <p class="desc-link" data-modal="modal-salak">Gunung dengan hutan lebat dan jalur pendakian...</p>
+                        </figcaption>
+                    </figure>
+
+                    <figure class="destination">
+                        <img src="halimun.jpg" alt="Foto Gunung Halimun">
+                        <figcaption>
+                            <h3>Gunung Halimun</h3>
+                            <p class="desc-link" data-modal="modal-halimun">Gunung dengan ekosistem hutan hujan tropis...</p>
+                        </figcaption>
+                    </figure>
+
+                    <figure class="destination">
+                        <img src="patuha.jpg" alt="Foto Gunung Patuha">
+                        <figcaption>
+                            <h3>Gunung Patuha</h3>
+                            <p class="desc-link" data-modal="modal-patuha">Gunung dengan danau kawah dan jalur hiking...</p>
+                        </figcaption>
+                    </figure>
+                    
+                    <figure class="destination">
+                        <img src="guntur.jpg" alt="Foto Gunung Guntur">
+                        <figcaption>
+                            <h3>Gunung Guntur</h3>
+                            <p class="desc-link" data-modal="modal-guntur">Gunung berapi aktif dengan padang sabana yang indah di Garut.</p>
+                        </figcaption>
+                    </figure>
+                    
+                    <figure class="destination">
+                        <img src="gunung_burangrang.jpg" alt="Foto Gunung Burangrang">
+                        <figcaption>
+                            <h3>Gunung Burangrang</h3>
+                            <p class="desc-link" data-modal="modal-burangrang">Gunung di Lembang dengan jalur pendakian rimbun.</p>
+                        </figcaption>
+                    </figure>
+                </div>
+            </div>
+        </section>
+
+        <div id="modal-pangrango" class="modal" role="dialog" aria-modal="true" aria-labelledby="pangrango-title">
+            <div class="modal-content"> <span class="close">×</span> <h3 id="pangrango-title">Gunung Pangrango</h3> <img class="modal-image" src="" alt="Foto Gunung"> <p>Gunung Pangrango adalah gunung api tidak aktif di Taman Nasional Gede Pangrango, seringkali didaki bersamaan dengan Gunung Gede.Gunung Pangrango Terkenal dengan keindahan Lembah Mandalawangi yang memukau, gunung ini memiliki ketinggian 3.019 mdpl.</p> <h4>Peta Lokasi</h4> <div class="map-embed"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31687.89369311099!2d106.9600122491561!3d-6.78201501725791!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69b183492a7c41%3A0x103a8f5f66c21e64!2sGn.%20Pangrango!5e0!3m2!1sid!2sid!4v1731742888125!5m2!1sid!2sid" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div> <div class="modal-buttons"> <button class="tips-btn"><i class="fa-solid fa-lightbulb"></i> Tampilkan Tips</button> </div> <div class="tips-content">Gunung Pangrango: Persiapkan fisik, bawa air 2L, dan ikuti panduan ranger untuk keselamatan. Jalur Cibodas adalah yang paling populer.</div> </div>
+        </div>
+        <div id="modal-gede" class="modal" role="dialog" aria-modal="true" aria-labelledby="gede-title">
+            <div class="modal-content"> <span class="close">×</span> <h3 id="gede-title">Gunung Gede</h3> <img class="modal-image" src="" alt="Foto Gunung"> <p>Gunung Gede adalah gunung berapi aktif yang sangat populer untuk pendakian, terkenal dengan Alun-Alun Suryakencana, padang edelweiss yang luas.Gunung Gede Terletak di Taman Nasional Gunung Gede Pangrango, gunung ini sangat populer dan sering diselimuti kabut tipis di Alun-alun Suryakancana. Memiliki ketinggian sekitar 2.958 mdpl</p> <h4>Peta Lokasi</h4> <div class="map-embed"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15843.082718107718!2d106.97489244916327!3d-6.805528717524962!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69b161c1103f53%3A0xce306b1e7790159e!2sGn.%20Gede!5e0!3m2!1sid!2sid!4v1731742921509!5m2!1sid!2sid" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div> <div class="modal-buttons"> <button class="tips-btn"><i class="fa-solid fa-lightbulb"></i> Tampilkan Tips</button> </div> <div class="tips-content">Gunung Gede: Gunakan sepatu hiking, bawa sleeping bag, dan periksa cuaca sebelum berangkat. Jalur Cibodas cocok untuk pendakian malam hari.</div> </div>
+        </div>
+        <div id="modal-ciremai" class="modal" role="dialog" aria-modal="true" aria-labelledby="ciremai-title">
+            <div class="modal-content"> <span class="close">×</span> <h3 id="ciremai-title">Gunung Ciremai</h3> <img class="modal-image" src="" alt="Foto Gunung"> <p>Gunung Ciremai adalah gunung tertinggi di Jawa Barat. Pendakiannya menantang namun menawarkan pemandangan spektakuler dari puncaknya.Gunung tertinggi di Jawa Barat, dengan ketinggian 3.078 mdpl, menawarkan pemandangan luar biasa dari puncaknya.</p> <h4>Peta Lokasi</h4> <div class="map-embed"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d126743.61633591244!2d108.33294715494384!3d-6.901664188701912!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e6f21bc17e76963%3A0x67851f0bde7b0916!2sGn.%20Cereme!5e0!3m2!1sid!2sid!4v1731742950503!5m2!1sid!2sid" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div> <div class="modal-buttons"> <button class="tips-btn"><i class="fa-solid fa-lightbulb"></i> Tampilkan Tips</button> </div> <div class="tips-content">Gunung Ciremai: Bawa bekal energi, hindari pendakian saat hujan, dan gunakan trekking pole untuk stabilitas.</div> </div>
+        </div>
+        <div id="modal-papandayan" class="modal" role="dialog" aria-modal="true" aria-labelledby="papandayan-title">
+            <div class="modal-content"> <span class="close">×</span> <h3 id="papandayan-title">Gunung Papandayan</h3> <img class="modal-image" src="" alt="Foto Gunung"> <p>Gunung Papandayan terkenal dengan kawah belerangnya yang aktif, Hutan Mati yang eksotis, dan padang Edelweiss Tegal Alun.Gunung Papandayan: Gunung api aktif di Garut dengan ketinggian 2.665 mdpl ini memiliki keunikan seperti hutan mati dan bunga edelweis, serta kawah yang mengepul.</p> <h4>Peta Lokasi</h4> <div class="map-embed"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31652.89417122432!2d107.70822604924716!3d-7.31321071985338!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e68ab4e4a717537%3A0x44636b1b4b60451d!2sGn.%20Papandayan!5e0!3m2!1sid!2sid!4v1731742981156!5m2!1sid!2sid" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div> <div class="modal-buttons"> <button class="tips-btn"><i class="fa-solid fa-lightbulb"></i> Tampilkan Tips</button> </div> <div class="tips-content">Gunung Papandayan: Pakai masker karena sulfur, bawa kamera untuk Hutan Mati, dan jangan mendekati kawah aktif tanpa guide.</div> </div>
+        </div>
+        <div id="modal-tangkuban" class="modal" role="dialog" aria-modal="true" aria-labelledby="tangkuban-title">
+            <div class="modal-content"> <span class="close">×</span> <h3 id="tangkuban-title">Gunung Tangkuban Perahu</h3> <img class="modal-image" src="" alt="Foto Gunung"> <p>Destinasi wisata ikonik di Lembang. Pengunjung dapat berkendara hingga ke bibir kawah utama (Kawah Ratu) dan melihat aktivitas vulkanik dari dekat ,dengan Ketinggian Mencapai sekitar 2.084 mdpl. </p> <h4>Peta Lokasi</h4> <div class="map-embed"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15846.541818270114!2d107.59912824916053!3d-6.759107917897217!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e68e1c013e8c6f7%3A0x6ea131615f4a7c13!2sGn.%20Tangkuban%20Parahu!5e0!3m2!1sid!2sid!4v1731743004381!5m2!1sid!2sid" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div> <div class="modal-buttons"> <button class="tips-btn"><i class="fa-solid fa-lightbulb"></i> Tampilkan Tips</button> </div> <div class="tips-content">Gunung Tangkuban Perahu: Cocok untuk keluarga, bawa jaket karena dingin, dan jangan lupa beli souvenir di area parkir.</div> </div>
+        </div>
+        <div id="modal-salak" class="modal" role="dialog" aria-modal="true" aria-labelledby="salak-title">
+            <div class="modal-content"> <span class="close">×</span> <h3 id="salak-title">Gunung Salak</h3> <img class="modal-image" src="" alt="Foto Gunung"> <p>Gunung Salak adalah gunung berapi aktif tipe A yang tererosi di Jawa Barat, Indonesia, dengan ketinggian puncak utamanya sekitar 2.211 mdpl. Namanya berasal dari kata Sansekerta "salaka" yang berarti "perak", bukan dari buah salak. Gunung ini memiliki beberapa kerucut satelit, dua kawah di puncak, dan dikelilingi hutan lebat yang menyulitkan pendakian. </p> <h4>Peta Lokasi</h4> <div class="map-embed"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31692.83939615082!2d106.70293224915234!3d-6.711311016641887!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69cd9b150917c5%3A0x4384ab75a022de3!2sGn.%20Salak!5e0!3m2!1sid!2sid!4v1731743027581!5m2!1sid!2sid" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div> <div class="modal-buttons"> <button class="tips-btn"><i class="fa-solid fa-lightbulb"></i> Tampilkan Tips</button> </div> <div class="tips-content">Gunung Salak: Jalur Cidahu populer, bawa repellent nyamuk, dan nikmati pemandangan hutan yang hijau.</div> </div>
+        </div>
+        <div id="modal-halimun" class="modal" role="dialog" aria-modal="true" aria-labelledby="halimun-title">
+            <div class="modal-content"> <span class="close">×</span> <h3 id="halimun-title">Gunung Halimun</h3> <img class="modal-image" src="" alt="Foto Gunung"> <p>Gunung Halimun adalah gunung stratovolcano (bertipe kerucut) yang terletak di perbatasan Jawa Barat (Kabupaten Bogor dan Sukabumi) dan Banten (Kabupaten Lebak). Dengan ketinggian sekitar \(1.929\) mdpl, gunung ini merupakan bagian dari wilayah konservasi Taman Nasional Gunung Halimun-Salak (TNGHS), yang memiliki ekosistem hutan hujan pegunungan terluas di Jawa. Nama "Halimun" berasal dari bahasa Sunda yang berarti "kabut". </p> <h4>Peta Lokasi</h4> <div class="map-embed"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31694.38042436402!2d106.51608674915124!3d-6.687483716467375!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69cc40056f6c37%3A0x10f7e53099b9900!2sGn.%20Halimun!5e0!3m2!1sid!2sid!4v1731743054170!5m2!1sid!2sid" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div> <div class="modal-buttons"> <button class="tips-btn"><i class="fa-solid fa-lightbulb"></i> Tampilkan Tips</button> </div> <div class="tips-content">Gunung Halimun: Fokus konservasi, bawa sampah pulang, dan ikuti jalur resmi untuk melindungi ekosistem.</div> </div>
+        </div>
+        <div id="modal-patuha" class="modal" role="dialog" aria-modal="true" aria-labelledby="patuha-title">
+            <div class="modal-content"> <span class="close">×</span> <h3 id="patuha-title">Gunung Patuha</h3> <img class="modal-image" src="" alt="Foto Gunung"> <p>Gunung Patuha adalah lokasi dari Kawah Putih, salah satu destinasi wisata paling terkenal di Jawa Barat, dengan danau kawahnya yang sureal.Gunung ini adalah gunung stratovolkano kembar di Kabupaten Bandung, Jawa Barat, dengan ketinggian sekitar 2.434 meter. </p> <h4>Peta Lokasi</h4> <div class="map-embed"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15831.614831627083!2d107.40114979917846!3d-7.25143096894098!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e688e14b2b11f4d%3A0x633a6b583f70f606!2sGn.%20Patuha!5e0!3m2!1sid!2sid!4v1731743080787!5m2!1sid!2sid" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div> <div class="modal-buttons"> <button class="tips-btn"><i class="fa-solid fa-lightbulb"></i> Tampilkan Tips</button> </div> <div class="tips-content">Gunung Patuha: Nikmati danau kawah (Kawah Putih), bawa bekal piknik, dan hindari berenang tanpa izin.</div> </div>
+        </div>
+        <div id="modal-guntur" class="modal" role="dialog" aria-modal="true" aria-labelledby="guntur-title">
+            <div class="modal-content"> <span class="close">×</span> <h3 id="guntur-title">Gunung Guntur</h3> <img class="modal-image" src="" alt="Foto Gunung Guntur"> <p>Gunung Guntur adalah gunung berapi aktif di Garut yang terkenal dengan padang sabana luas dan jalur pendakian yang terjal berpasir, gunung ini dikenal dengan pemandangan alamnya yang memesona dan merupakan salah satu gunung berapi yang memiliki aktivitas vulkanik yang menarik , gunung ini memiliki ketinggian 2.249 mdpl.</p> <h4>Peta Lokasi</h4> <div class="map-embed"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15834.781844919702!2d107.83619574922119!3d-7.161041018260408!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e68a901e912f2e7%3A0xf05a13c9e6f21287!2sGn.%20Guntur!5e0!3m2!1sid!2sid!4v1731743102371!5m2!1sid!2sid" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div> <div class="modal-buttons"> <button class="tips-btn"><i class="fa-solid fa-lightbulb"></i> Tampilkan Tips</button> </div> <div class="tips-content">Gunung Guntur: Bawa banyak air minum karena jalur terbuka dan panas. Gunakan *gaiter* untuk mencegah pasir masuk sepatu.</div> </div>
+        </div>
+        <div id="modal-burangrang" class="modal" role="dialog" aria-modal="true" aria-labelledby="burangrang-title">
+            <div class="modal-content"> <span class="close">×</span> <h3 id="burangrang-title">Gunung Burangrang</h3> <img class="modal-image" src="" alt="Foto Gunung Burangrang"> <p>Gunung Burangrang merupakan salah satu dari rangkaian pegunungan di Lembang, menawarkan jalur pendakian yang rimbun dan pemandangan ke Situ Lembang.Gunung yang terletak di sebelah utara Bandung ini menawarkan pemandangan Situ Lembang yang indah dari puncaknya, dengan trek yang cenderung landai.gunung api mati di perbatasan Kabupaten Bandung Barat dan Purkawarfta, Jawa Barat, dengan ketinggian 2.050 meter di atas permukaan laut</p> <h4>Peta Lokasi</h4> <div class="map-embed"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15846.993139366532!2d107.51863584916024!3d-6.748111617812048!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e68e2c7b00b4111%3A0x63117409c11c13d!2sGn.%20Burangrang!5e0!3m2!1sid!2sid!4v1731743122974!5m2!1sid!2sid" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div> <div class="modal-buttons"> <button class="tips-btn"><i class="fa-solid fa-lightbulb"></i> Tampilkan Tips</button> </div> <div class="tips-content">Gunung Burangrang: Jalur bisa licin saat hujan. Cocok untuk pendaki pemula hingga menengah yang mencari hutan lebat.</div> </div>
+        </div>
+        
+        <section id="contact" class="contact">
+            <div class="container">
+                <h2><i class="fa-solid fa-paper-plane"></i> Kontak Kami</h2>
+                <p>Ada pertanyaan atau ingin berbagi pengalaman pendakian Anda? Hubungi kami!</p>
+                <form id="contact-form">
+                    <div>
+                        <label for="nama" class="sr-only">Nama Anda</label>
+                        <input type="text" id="nama" name="nama" placeholder="Nama Anda" required>
+                    </div>
+                    <div>
+                        <label for="email" class="sr-only">Email Anda</label>
+                        <input type="email" id="email" name="email" placeholder="Email Anda" required>
+                    </div>
+                    <div>
+                        <label for="pesan" class="sr-only">Pesan Anda</label>
+                        <textarea id="pesan" name="pesan" rows="5" placeholder="Pesan Anda..." required></textarea>
+                    </div>
+                    
+                    <div id="form-message" role="status" aria-live="polite"></div>
+                    <button type="submit" class="cta-button">Kirim Pesan</button>
+                </form>
+            </div>
+        </section>
+    </main> 
+
+    <footer class="site-footer">
         <div class="container">
-            <h2><i class="fa-solid fa-signs-post"></i> 10 Gunung Tercantik di Jawa Barat</h2>
-            <div class="gallery">
-                 <div class="destination"> <img src="gunung_pangrango.jpg" alt="Foto Gunung Pangrango"> <h3>Gunung Pangrango</h3> <p class="desc-link" data-modal="modal-pangrango">Gunung aktif dengan pemandangan kawah dan hutan tropis...</p> </div>
-                 <div class="destination"> <img src="gunung_gede.jpg" alt="Foto Gunung Gede"> <h3>Gunung Gede</h3> <p class="desc-link" data-modal="modal-gede">Gunung tertinggi di Jawa Barat dengan jalur pendakian...</p> </div>
-                 <div class="destination"> <img src="ciremai.jpg" alt="Foto Gunung Ciremai"> <h3>Gunung Ciremai</h3> <p class="desc-link" data-modal="modal-ciremai">Gunung Ciremai: Gunung tertinggi di Jawa Barat...</p> </div>
-                 <div class="destination"> <img src="mt papandayan.jpg" alt="Foto Gunung Papandayan"> <h3>Gunung Papandayan</h3> <p class="desc-link" data-modal="modal-papandayan">Gunung dengan kawah aktif dan padang rumput...</p> </div>
-                 <div class="destination"> <img src="Tangkuban Perahu Bandung.jpg" alt="Foto Gunung Tangkuban Perahu"> <h3>Gunung Tangkuban Perahu</h3> <p class="desc-link" data-modal="modal-tangkuban">Gunung ikonik dengan kawah yang dapat dikunjungi...</p> </div>
-                 <div class="destination"> <img src="Gunung salak, kota bogor.jpg" alt="Foto Gunung Salak"> <h3>Gunung Salak</h3> <p class="desc-link" data-modal="modal-salak">Gunung dengan hutan lebat dan jalur pendakian...</p> </div>
-                 <div class="destination"> <img src="halimun.jpg" alt="Foto Gunung Halimun"> <h3>Gunung Halimun</h3> <p class="desc-link" data-modal="modal-halimun">Gunung dengan ekosistem hutan hujan tropis...</p> </div>
-                 <div class="destination"> <img src="patuha.jpg" alt="Foto Gunung Patuha"> <h3>Gunung Patuha</h3> <p class="desc-link" data-modal="modal-patuha">Gunung dengan danau kawah dan jalur hiking...</p> </div>
-                 
-                 <div class="destination"> <img src="guntur.jpg" alt="Foto Gunung Guntur"> <h3>Gunung Guntur</h3> <p class="desc-link" data-modal="modal-guntur">Gunung berapi aktif dengan padang sabana yang indah di Garut.</p> </div>
-                 
-                 <div class="destination"> <img src="gunung_burangrang.jpg" alt="Foto Gunung Burangrang"> <h3>Gunung Burangrang</h3> <p class="desc-link" data-modal="modal-burangrang">Gunung di Lembang dengan jalur pendakian rimbun.</p> </div>
+            <div class="footer-grid">
+                <div class="footer-column">
+                    <h4>Puncak Terindah Jabar</h4>
+                    <p>Informasi pendakian dan keindahan gunung-gunung di Jawa Barat.</p>
+                    <div class="social-icons">
+                        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                        <a href="#" aria-label="TikTok"><i class="fab fa-tiktok"></i></a>
+                        <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                    </div>
+                    <a href="#" class="footer-link">Kebijakan Privasi</a>
+                </div>
+                <div class="footer-column">
+                    <h4>Link Cepat</h4>
+                    <ul>
+                        <li><a href="#home">Beranda</a></li>
+                        <li><a href="#destinations">Galeri Gunung</a></li>
+                        <li><a href="#contact">Kontak Kami</a></li>
+                        <li><a href="#">Tips Pendakian</a></li>
+                        <li><a href="#">Peta Jalur</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4>Kontak</h4>
+                    <ul>
+                        <li><i class="fas fa-phone"></i> (+62) 123-456-7890</li>
+                        <li><i class="fas fa-envelope"></i> info@puncakjabar.com</li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4>Lokasi Kami</h4>
+                    <p>
+                        🏔️ Admin dan tim kami berbasis di Bandung,
+                        Jawa Barat, Indonesia.
+                    </p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <hr>
+                <p>Hak Cipta © 2025 Puncak Terindah Jabar. Seluruh Hak Dilindungi.</p>
             </div>
         </div>
-    </section>
-
-    <div id="modal-pangrango" class="modal"> <div class="modal-content"> <span class="close">×</span> <h3>Gunung Pangrango</h3> <img class="modal-image" src="" alt="Foto Gunung"> <p>Gunung Pangrango adalah gunung api tidak aktif di Taman Nasional Gede Pangrango, seringkali didaki bersamaan dengan Gunung Gede.Gunung Pangrango Terkenal dengan keindahan Lembah Mandalawangi yang memukau, gunung ini memiliki ketinggian 3.019 mdpl.</p> <h4>Peta Lokasi</h4> <div class="map-embed"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15843.911311096734!2d106.96918559092497!3d-6.78201217036495!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e68361d1554c2e1%3A0x63421111d43a6b57!2sGn.%20Pangrango!5e0!3m2!1sid!2sid!4v1730605943486!5m2!1sid!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div> <div class="modal-buttons"> <button class="tips-btn"><i class="fa-solid fa-lightbulb"></i> Tampilkan Tips</button> </div> <div class="tips-content">Gunung Pangrango: Persiapkan fisik, bawa air 2L, dan ikuti panduan ranger untuk keselamatan. Jalur Cibodas adalah yang paling populer.</div> </div> </div>
-    <div id="modal-gede" class="modal"> <div class="modal-content"> <span class="close">×</span> <h3>Gunung Gede</h3> <img class="modal-image" src="" alt="Foto Gunung"> <p>Gunung Gede adalah gunung berapi aktif yang sangat populer untuk pendakian, terkenal dengan Alun-Alun Suryakencana, padang edelweiss yang luas.Gunung Gede Terletak di Taman Nasional Gunung Gede Pangrango, gunung ini sangat populer dan sering diselimuti kabut tipis di Alun-alun Suryakancana. Memiliki ketinggian sekitar 2.958 mdpl</p> <h4>Peta Lokasi</h4> <div class="map-embed"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31687.97157885747!2d106.97905141083984!3d-6.78191299999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e68361956905555%3A0x2110a26771dd61c!2sGn.%20Gede!5e0!3m2!1sid!2sid!4v1730605973693!5m2!1sid!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div> <div class="modal-buttons"> <button class="tips-btn"><i class="fa-solid fa-lightbulb"></i> Tampilkan Tips</button> </div> <div class="tips-content">Gunung Gede: Gunakan sepatu hiking, bawa sleeping bag, dan periksa cuaca sebelum berangkat. Jalur Cibodas cocok untuk pendakian malam hari.</div> </div> </div>
-    <div id="modal-ciremai" class="modal"> <div class="modal-content"> <span class="close">×</span> <h3>Gunung Ciremai</h3> <img class="modal-image" src="" alt="Foto Gunung"> <p>Gunung Ciremai adalah gunung tertinggi di Jawa Barat. Pendakiannya menantang namun menawarkan pemandangan spektakuler dari puncaknya.Gunung tertinggi di Jawa Barat, dengan ketinggian 3.078 mdpl, menawarkan pemandangan luar biasa dari puncaknya.</p> <h4>Peta Lokasi</h4> <div class="map-embed"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31680.17066804511!2d108.38810791084228!3d-6.892013899999991!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e6f2178335f6089%3A0x1d120a1c70e271ac!2sGn.%20Ciremai!5e0!3m2!1sid!2sid!4v1730606001711!5m2!1sid!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div> <div class="modal-buttons"> <button class="tips-btn"><i class="fa-solid fa-lightbulb"></i> Tampilkan Tips</button> </div> <div class="tips-content">Gunung Ciremai: Bawa bekal energi, hindari pendakian saat hujan, dan gunakan trekking pole untuk stabilitas.</div> </div> </div>
-    <div id="modal-papandayan" class="modal"> <div class="modal-content"> <span class="close">×</span> <h3>Gunung Papandayan</h3> <img class="modal-image" src="" alt="Foto Gunung"> <p>Gunung Papandayan terkenal dengan kawah belerangnya yang aktif, Hutan Mati yang eksotis, dan padang Edelweiss Tegal Alun.Gunung Papandayan: Gunung api aktif di Garut dengan ketinggian 2.665 mdpl ini memiliki keunikan seperti hutan mati dan bunga edelweis, serta kawah yang mengepul.</p> <h4>Peta Lokasi</h4> <div class="map-embed"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15822.46497210103!2d107.72147394093952!3d-7.32001567018318!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e68a3563edc1031%3A0x9a80b1d5c7921b7!2sGn.%20Papandayan!5e0!3m2!1sid!2sid!4v1730606030999!5m2!1sid!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div> <div class="modal-buttons"> <button class="tips-btn"><i class="fa-solid fa-lightbulb"></i> Tampilkan Tips</button> </div> <div class="tips-content">Gunung Papandayan: Pakai masker karena sulfur, bawa kamera untuk Hutan Mati, dan jangan mendekati kawah aktif tanpa guide.</div> </div> </div>
-    <div id="modal-tangkuban" class="modal"> <div class="modal-content"> <span class="close">×</span> <h3>Gunung Tangkuban Perahu</h3> <img class="modal-image" src="" alt="Foto Gunung"> <p>Destinasi wisata ikonik di Lembang. Pengunjung dapat berkendara hingga ke bibir kawah utama (Kawah Ratu) dan melihat aktivitas vulkanik dari dekat ,dengan Ketinggian Mencapai sekitar 2.084 mdpl. </p> <h4>Peta Lokasi</h4> <div class="map-embed"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31693.882195035517!2d107.59506641083755!3d-6.759411699999988!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e68e1a126d456f9%3A0x1d699e6580a3a5f4!2sGn.%20Tangkuban%20Parahu!5e0!3m2!1sid!2sid!4v1730606062130!5m2!1sid!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div> <div class="modal-buttons"> <button class="tips-btn"><i class="fa-solid fa-lightbulb"></i> Tampilkan Tips</button> </div> <div class="tips-content">Gunung Tangkuban Perahu: Cocok untuk keluarga, bawa jaket karena dingin, dan jangan lupa beli souvenir di area parkir.</div> </div> </div>
-    <div id="modal-salak" class="modal"> <div class="modal-content"> <span class="close">×</span> <h3>Gunung Salak</h3> <img class="modal-image" src="" alt="Foto Gunung"> <p>Gunung Salak adalah gunung berapi aktif tipe A yang tererosi di Jawa Barat, Indonesia, dengan ketinggian puncak utamanya sekitar 2.211 mdpl. Namanya berasal dari kata Sansekerta "salaka" yang berarti "perak", bukan dari buah salak. Gunung ini memiliki beberapa kerucut satelit, dua kawah di puncak, dan dikelilingi hutan lebat yang menyulitkan pendakian. </p> <h4>Peta Lokasi</h4> <div class="map-embed"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31688.8950529141!2d106.69677061083935!3d-6.768133399999991!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69d774e760c6d9%3A0xbc44933a303666e!2sGn.%20Salak!5e0!3m2!1sid!2sid!4v1730606087799!5m2!1sid!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div> <div class="modal-buttons"> <button class="tips-btn"><i class="fa-solid fa-lightbulb"></i> Tampilkan Tips</button> </div> <div class="tips-content">Gunung Salak: Jalur Cidahu populer, bawa repellent nyamuk, dan nikmati pemandangan hutan yang hijau.</div> </div> </div>
-    <div id="modal-halimun" class="modal"> <div class="modal-content"> <span class="close">×</span> <h3>Gunung Halimun</h3> <img class="modal-image" src="" alt="Foto Gunung"> <p>Gunung Halimun adalah gunung stratovolcano (bertipe kerucut) yang terletak di perbatasan Jawa Barat (Kabupaten Bogor dan Sukabumi) dan Banten (Kabupaten Lebak). Dengan ketinggian sekitar \(1.929\) mdpl, gunung ini merupakan bagian dari wilayah konservasi Taman Nasional Gunung Halimun-Salak (TNGHS), yang memiliki ekosistem hutan hujan pegunungan terluas di Jawa. Nama "Halimun" berasal dari bahasa Sunda yang berarti "kabut". </p> <h4>Peta Lokasi</h4> <div class="map-embed"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15846.121886866166!2d106.51654219092284!3d-6.719601670390145!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69d201a05291fb%3A0xa59f636c7e3050c7!2sGn.%20Halimun!5e0!3m2!1sid!2sid!4v1730606114881!5m2!1sid!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div> <div class="modal-buttons"> <button class="tips-btn"><i class="fa-solid fa-lightbulb"></i> Tampilkan Tips</button> </div> <div class="tips-content">Gunung Halimun: Fokus konservasi, bawa sampah pulang, dan ikuti jalur resmi untuk melindungi ekosistem.</div> </div> </div>
-    <div id="modal-patuha" class="modal"> <div class="modal-content"> <span class="close">×</span> <h3>Gunung Patuha</h3> <img class="modal-image" src="" alt="Foto Gunung"> <p>Gunung Patuha adalah lokasi dari Kawah Putih, salah satu destinasi wisata paling terkenal di Jawa Barat, dengan danau kawahnya yang sureal.Gunung ini adalah gunung stratovolkano kembar di Kabupaten Bandung, Jawa Barat, dengan ketinggian sekitar 2.434 meter. </p> <h4>Peta Lokasi</h4> <div class="map-embed"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15825.96860361048!2d107.40026269093766!3d-7.165449270275895!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e688c2288924b45%3A0xc3f545a709033334!2sGn.%20Patuha!5e0!3m2!1sid!2sid!4v1730606138769!5m2!1sid!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div> <div class="modal-buttons"> <button class="tips-btn"><i class="fa-solid fa-lightbulb"></i> Tampilkan Tips</button> </div> <div class="tips-content">Gunung Patuha: Nikmati danau kawah (Kawah Putih), bawa bekal piknik, dan hindari berenang tanpa izin.</div> </div> </div>
-
-    <div id="modal-guntur" class="modal"> <div class="modal-content"> <span class="close">×</span> <h3>Gunung Guntur</h3> <img class="modal-image" src="" alt="Foto Gunung Guntur"> <p>Gunung Guntur adalah gunung berapi aktif di Garut yang terkenal dengan padang sabana luas dan jalur pendakian yang terjal berpasir, gunung ini dikenal dengan pemandangan alamnya yang memesona dan merupakan salah satu gunung berapi yang memiliki aktivitas vulkanik yang menarik , gunung ini memiliki ketinggian 2.249 mdpl.</p> <h4>Peta Lokasi</h4> <div class="map-embed"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15825.617066922573!2d107.83621454093786!3d-7.174246170267793!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e68a8f12b70b555%3A0xbf1a50c828d08595!2sGn.%20Guntur!5e0!3m2!1sid!2sid!4v1730606168128!5m2!1sid!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div> <div class="modal-buttons"> <button class="tips-btn"><i class="fa-solid fa-lightbulb"></i> Tampilkan Tips</button> </div> <div class="tips-content">Gunung Guntur: Bawa banyak air minum karena jalur terbuka dan panas. Gunakan *gaiter* untuk mencegah pasir masuk sepatu.</div> </div> </div>
-    
-    <div id="modal-burangrang" class="modal"> <div class="modal-content"> <span class="close">×</span> <h3>Gunung Burangrang</h3> <img class="modal-image" src="" alt="Foto Gunung Burangrang"> <p>Gunung Burangrang merupakan salah satu dari rangkaian pegunungan di Lembang, menawarkan jalur pendakian yang rimbun dan pemandangan ke Situ Lembang.Gunung yang terletak di sebelah utara Bandung ini menawarkan pemandangan Situ Lembang yang indah dari puncaknya, dengan trek yang cenderung landai.gunung api mati di perbatasan Kabupaten Bandung Barat dan Purwakarta, Jawa Barat, dengan ketinggian 2.050 meter di atas permukaan laut</p> <h4>Peta Lokasi</h4> <div class="map-embed"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31694.974716762395!2d107.51474221083705!3d-6.746014399999989!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e68e3c10a562095%3A0xb15684073d3d63d!2sGn.%20Burangrang!5e0!3m2!1sid!2sid!4v1730606195701!5m2!1sid!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div> <div class="modal-buttons"> <button class="tips-btn"><i class="fa-solid fa-lightbulb"></i> Tampilkan Tips</button> </div> <div class="tips-content">Gunung Burangrang: Jalur bisa licin saat hujan. Cocok untuk pendaki pemula hingga menengah yang mencari hutan lebat.</div> </div> </div>
-    
-
-    <section id="contact" class="contact">
-        <div class="container">
-            <h2><i class="fa-solid fa-paper-plane"></i> Kontak Kami</h2>
-            <p>Ada pertanyaan atau ingin berbagi pengalaman pendakian Anda? Hubungi kami!</p>
-            <form id="contact-form">
-                <input type="text" name="nama" placeholder="Nama Anda" required>
-                <input type="email" name="email" placeholder="Email Anda" required>
-                <textarea name="pesan" rows="5" placeholder="Pesan Anda..." required></textarea>
-                <div id="form-message"></div>
-                <button type="submit" class="cta-button">Kirim Pesan</button>
-            </form>
-        </div>
-    </section>
-
-    <footer>
-        <div class="container">
-            <p>© 2025 Puncak Jabar. Hak Cipta Dilindungi.</p>
-        </div>
     </footer>
+
+    <a href="https://wa.me/085693163151" class="whatsapp-float" target="_blank" aria-label="Hubungi kami di WhatsApp">
+        <i class="fab fa-whatsapp"></i>
+    </a>
 
     <script src="script.js"></script>
 </body>
